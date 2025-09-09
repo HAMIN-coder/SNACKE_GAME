@@ -27,18 +27,13 @@
   
 ## Top-module
 <img width="928" height="652" alt="image" src="https://github.com/user-attachments/assets/1098703f-e265-4fad-90fd-02fce407791c" />
-control_unit.v: FSM 기반 게임 상태 제어
 
-snake.v: 루돌프/선물/충돌 처리 및 VGA 출력
-
-random.v: LFSR 기반 좌표 랜덤 생성
-
-ps2_kbd_top.v: 키보드 입력 처리
-
-music_i.v: 게임 결과 음악 재생
-
-score.v, led.v, rgb.v: 점수/LED/RGB 출력
-
+- control_unit.v: FSM 기반 게임 상태 제어
+- snake.v: 루돌프/선물/충돌 처리 및 VGA 출력
+- random.v: LFSR 기반 좌표 랜덤 생성
+- ps2_kbd_top.v: 키보드 입력 처리
+- music_i.v: 게임 결과 음악 재생
+- score.v, led.v, rgb.v: 점수/LED/RGB 출력
 
 
 ## 게임 화면 및 조작 방법
@@ -60,6 +55,7 @@ segment에는 0, led는 6개 모두 켜져 있는 것을 확인할 수 있다. �
 수 있다. FPGA 보드를 보면 선물을 네 개 먹었기 때문에 segment에 4가 나타
 나고 남은 선물 숫자인 2개의 led와 게임이 진행중이라는 초록 빛을 확인할 
 수 있다. 
+
 3. 게임 종료 (gameover이 되었을 때)
    <img width="733" height="274" alt="image" src="https://github.com/user-attachments/assets/32ee70bb-73a4-4ede-8f73-460b447b2344" />
 
@@ -67,6 +63,7 @@ segment에는 0, led는 6개 모두 켜져 있는 것을 확인할 수 있다. �
 면에 보이듯이 테두리는 남아있고 검은 화면이 뜬다. FPGA보드에는 이전까지 
 얻었던 점수와 못 먹은 선물의 개수(led) 그리고 빨간색 불빛으로 gameover가 
 되었음을 시각적으로 확인할 수 있다. 
+
 4.  게암 종료 (win일 때)
    <img width="739" height="277" alt="image" src="https://github.com/user-attachments/assets/0ca74dd3-48f4-40fa-bbdd-3698d353ebfc" />
 
@@ -74,4 +71,3 @@ segment에는 0, led는 6개 모두 켜져 있는 것을 확인할 수 있다. �
 인할 수 있다. FPGA보드를 보면 선물 6개를 모두 모았기 때문에 segment에는 
 6이 떠있고 남은 선물의 개수는 없기 때문에 led는 모두 꺼져 있다. 마지막으
 로 빨간 불빛으로 게임을 이겼다는 것을 시각적으로 확인할 수 있다.
-
