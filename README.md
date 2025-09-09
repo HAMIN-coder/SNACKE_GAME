@@ -48,7 +48,7 @@ segment에는 0, led는 6개 모두 켜져 있는 것을 확인할 수 있다. �
 했다면 키보드의 방향키를 눌러 테두리를 피해 루돌프를 움직이면 된다.
 
 2. 게임 진행 중
-   <img width="712" height="263" alt="image" src="https://github.com/user-attachments/assets/efb4e395-cc05-4f36-a3fc-9119ebc08c49" />
+<img width="712" height="263" alt="image" src="https://github.com/user-attachments/assets/efb4e395-cc05-4f36-a3fc-9119ebc08c49" />
 
 루돌프가 랜덤으로 배치된 선물을 얻으면 뒤에 선물이 따라온다. (=snake 몸 
 길이 증가) 얻은 선물의 색깔 대로 뒤에 똑같은 색깔로 따라오는 것을 확인할 
@@ -57,15 +57,15 @@ segment에는 0, led는 6개 모두 켜져 있는 것을 확인할 수 있다. �
 수 있다. 
 
 3. 게임 종료 (gameover이 되었을 때)
-   <img width="733" height="274" alt="image" src="https://github.com/user-attachments/assets/32ee70bb-73a4-4ede-8f73-460b447b2344" />
+<img width="733" height="274" alt="image" src="https://github.com/user-attachments/assets/32ee70bb-73a4-4ede-8f73-460b447b2344" />
 
 루돌프가 뒤에 따라오던 선물이나 테두리에 부딪혔을 때는 gameover이다. 화
 면에 보이듯이 테두리는 남아있고 검은 화면이 뜬다. FPGA보드에는 이전까지 
 얻었던 점수와 못 먹은 선물의 개수(led) 그리고 빨간색 불빛으로 gameover가 
 되었음을 시각적으로 확인할 수 있다. 
 
-4.  게암 종료 (win일 때)
-   <img width="739" height="277" alt="image" src="https://github.com/user-attachments/assets/0ca74dd3-48f4-40fa-bbdd-3698d353ebfc" />
+4.  게임임 종료 (win일 때)
+<img width="739" height="277" alt="image" src="https://github.com/user-attachments/assets/0ca74dd3-48f4-40fa-bbdd-3698d353ebfc" />
 
 루돌프가 선물을 6개 모두 모았을 때는 화면에 선물 그림이 나타나는 것을 확
 인할 수 있다. FPGA보드를 보면 선물 6개를 모두 모았기 때문에 segment에는 
