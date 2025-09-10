@@ -35,6 +35,8 @@
 - music_i.v: 게임 결과 음악 재생
 - score.v, led.v, rgb.v: 점수/LED/RGB 출력
 
+## FSM
+<img width="783" height="389" alt="image" src="https://github.com/user-attachments/assets/e8d40ed8-f7b0-4389-85e2-3bec7555c0c7" />
 
 ## 게임 화면 및 조작 방법
 1. 게임 시작 초기 화면
