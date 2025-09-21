@@ -1,4 +1,4 @@
-# SNAKE_GAME
+# SNACKE_GAME
 
 ## 프로젝트 개요
 본 프로젝트는 FPGA(Nexys 7 보드, Vivado 환경)를 활용하여 VGA 화면에 동작하는 SNAKE GAME을 구현한 과제이다. 
